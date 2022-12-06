@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+    <nav class="tpb"><h1>[<a href="index.html">  <button class="button" type="button" name="button">//</button></a>][<a href="cite.html">  <button class="button" type="button" name="button">citation</button></a>]</h1></nav>
+      <h1 class="line">Home</h1>
+    </header>
+    <nav id="navbar"class="main"><h1>[<a href="home.html">Home</a>][<a href="history.html">History</a>][<a href="currently.html">currently</a>]</nav>
+
+    <div class="container">
+      <article class="hmp">
+        <p>what is home to you? where is home to you? Is it where you wake up every morning, or where you think about before you go to bed every night?</p>
+
+        <p>As the child of a Syrian father and Palestinian mother, and grandchild to  refugees. I often think about where home is to me. </p>
+
+        <p>Home to me; it is somewhere i have never been. It is somewhere i see only from behind a screen. On the news, my social media feed, or any other outlet that lets me know how its burning.<p>
+
+        <p>I would like to share with you the experiences of Palestinians  who still call it home, past and present.</p>
+
+
+      </article>
+      <img class="hmpic"src="/pics/minerat.jpg" alt="">
+        <article class="citehome1">
+          <p>The minerat of Ayn Karim (1934)</p>
+          <p>A Palestinian village on the outskirts of Jerusalem deposed of all its palestinian inhabitants during the Nakba.</p>
+        </article>
+        <div class="dotshome">
+          <a class="dotshome" href="history.html"><h1 class="one">.</h1 class="two">  <h1>.</h1>  <h1 class="three">.</h1></a>
+      </div>
+    </div>
+
+  </body>
+<script type="text/javascript">
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</html>
